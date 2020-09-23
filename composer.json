@@ -1,10 +1,8 @@
 {
-    "name": "codicastudio/nexmo",
-    "description": "A noobs worthless garbage, just learning.",
-    "keywords": [
-        "worthless garabage by a noob."
-    ],
-    "homepage": "https://github.com/codicastudio/nexmo",
+    "name": "codica-studio/nexmo",
+    "description": "A random Codica Studio package.",
+
+    "homepage": "https://github.com/codica-studio/nexmo",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +13,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "composer/package-versions-deprecated": "^1.8",
         "illuminate/notifications": "^8.0",
         "nexmo/laravel": "^2.0"
