@@ -1,5 +1,5 @@
 {
-    "name": "codica-studio/nexmo",
+    "name": "codicastudio/nexmo",
     "description": "A random Codica Studio package.",
 
     "homepage": "https://github.com/codicastudio/nexmo",
@@ -19,7 +19,7 @@
         "nexmo/laravel": "^2.0"
     },
     "require-dev": {
-        "mockery/mockery": "^1.0",
+        "mockery/mockery": "^1.1",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
@@ -36,15 +36,12 @@
         "sort-packages": true
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        },
         "laravel": {
             "providers": [
                 "Illuminate\\Notifications\\NexmoChannelServiceProvider"
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
